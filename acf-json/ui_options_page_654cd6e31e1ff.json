@@ -1,0 +1,22 @@
+{
+    "key": "ui_options_page_654cd6e31e1ff",
+    "title": "Paramètres",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "Paramètres",
+    "menu_slug": "parameters",
+    "parent_slug": "none",
+    "advanced_configuration": 1,
+    "icon_url": "dashicons-admin-generic",
+    "menu_title": "Paramètres",
+    "position": 100,
+    "redirect": 0,
+    "description": "",
+    "update_button": "Mise à jour",
+    "updated_message": "Options mises à jour",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": 0,
+    "modified": 1699536988
+}

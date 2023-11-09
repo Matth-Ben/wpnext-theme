@@ -1,0 +1,23 @@
+{
+    "key": "ui_options_page_654cd84ac8bd4",
+    "title": "Options pour les développeurs",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "Options pour les développeurs",
+    "menu_slug": "develop-options",
+    "parent_slug": "parameters",
+    "advanced_configuration": 0,
+    "icon_url": "",
+    "menu_title": "",
+    "position": "",
+    "redirect": false,
+    "description": "",
+    "update_button": "Mise à jour",
+    "updated_message": "Options mises à jour",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": 0,
+    "_parent": 22,
+    "modified": 1699536995
+}

@@ -1,0 +1,23 @@
+{
+    "key": "ui_options_page_654cd8773c42b",
+    "title": "Options pour les utilisateurs",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "Options pour les utilisateurs",
+    "menu_slug": "user-options",
+    "parent_slug": "parameters",
+    "advanced_configuration": 0,
+    "icon_url": "",
+    "menu_title": "",
+    "position": "",
+    "redirect": false,
+    "description": "",
+    "update_button": "Mise à jour",
+    "updated_message": "Options mises à jour",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": 0,
+    "_parent": 22,
+    "modified": 1699536999
+}

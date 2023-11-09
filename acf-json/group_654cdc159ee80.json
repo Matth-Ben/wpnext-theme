@@ -1,0 +1,112 @@
+{
+    "key": "group_654cdc159ee80",
+    "title": "[OPTIONS] - DEVELOP",
+    "fields": [
+        {
+            "key": "field_654cdc15986c0",
+            "label": "Debug",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_654cdc45986c1",
+            "label": "Activer le mode debug",
+            "name": "debug",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "message": "Ce mode est réservé aux développeurs. Ne pas toucher.",
+            "default_value": 0,
+            "ui_on_text": "Oui",
+            "ui_off_text": "Non",
+            "ui": 1
+        },
+        {
+            "key": "field_654cdc8f986c3",
+            "label": "Fonctions à désactiver",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_654cdcbf986c4",
+            "label": "Désactiver les articles pour ce site ?",
+            "name": "display_posts",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Oui",
+            "ui_off_text": "Non",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "develop-options"
+            },
+            {
+                "param": "current_user_role",
+                "operator": "==",
+                "value": "administrator"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "show_in_graphql": 0,
+    "graphql_field_name": "[Options]Develop",
+    "map_graphql_types_from_location_rules": 0,
+    "graphql_types": "",
+    "modified": 1699536925
+}
