@@ -1,7 +1,10 @@
 <?php
 
 require_once get_template_directory() . '/admin/acf.php';
+require_once get_template_directory() . '/admin/comments.php';
 require_once get_template_directory() . '/admin/menu.php';
+require_once get_template_directory() . '/admin/posts.php';
+require_once get_template_directory() . '/admin/role.php';
 
 function wp_menu_route() {
     $menuLocations = get_nav_menu_locations(); // Get nav locations set in theme, usually functions.php)
@@ -16,4 +19,4 @@ add_action( 'rest_api_init', function () {
         'methods' => 'GET',
         'callback' => 'wp_menu_route',
     ));
-} );
+} ); 
